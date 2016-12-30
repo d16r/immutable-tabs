@@ -11,10 +11,13 @@
 
     "background": {
         "scripts": ["eventsPage.js"],
-        "persistent": false
+        "persistent": true
     },
 
     "permissions": [
-      "activeTab"
+      "tabs",
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
     ]
 }
