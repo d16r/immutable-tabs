@@ -9,6 +9,11 @@
         "default_icon": "icon.png"
     },
 
+    "background": {
+        "scripts": ["eventsPage.js"],
+        "persistent": false
+    },
+
     "permissions": [
       "activeTab"
     ]
