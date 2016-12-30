@@ -2,8 +2,8 @@
     "manifest_version": 2,
 
     "name": "Immutable Pinned Tabs",
-    "description": "This extension will lock the page a pinned tab is on.",
-    "version": "1.0",
+    "description": "An extension that will make your pinned tabs immutablee.",
+    "version": "1.0.1",
 
     "icons": {
       "16": "icon16.png",
