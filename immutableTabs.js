@@ -1,9 +1,9 @@
 var tabs = {};
 
 function replaceTabId(oldTabId, newTabId) {
-  var tab = tabs[removedTabId];
-  tabs[addedTabId] = tab;
-  delete tabs[removedTabId];
+  var tab = tabs[oldTabId];
+  tabs[newTabId] = tab;
+  delete tabs[oldTabId];
 }
 
 chrome.tabs.query({ pinned: true }, function(results) {

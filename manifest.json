@@ -3,7 +3,7 @@
 
     "name": "Immutable Pinned Tabs",
     "description": "An extension that will make your pinned tabs immutable. Once you pin a tab, you can no longer navigate away from the page it is on!",
-    "version": "1.0.1",
+    "version": "1.0.2",
 
     "icons": {
       "16": "icons/icon16.png",
